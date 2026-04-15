@@ -3,6 +3,7 @@ Extract dvr key from webos requires root
 
 LG GO F*** YOURSELF ! - encripting our FTA recordings doesn't make sense !
 
+Thanks https://github.com/anoane for the prebuilt binary of frida-server
 # INSTRUCTIONS
 1) Root your tv using the public avaliable methods
 2) Put frida-server inside /home/root via webos dev manager or scp to the tv (the one in the repo targets webos 4 (arm32 non hard)
