@@ -10,12 +10,15 @@ Extract dvr key from webos requires root
 
 
 # DOCKER INSTRUCTIONS for the client v12.5.7 required for frida-server from this repo
+```bash
 docker run --rm -it -v "$HOME/frida-client:/work" python:3.7-bullseye bash
 python -m venv /work/venv
 source /work/venv/bin/activate
 python -m pip install --upgrade pip setuptools wheel
 wget https://files.pythonhosted.org/packages/a4/f7/0863766252ea6f44788a34601d03219c06aece71fb2e52e03b5860bb1439/frida-12.5.7-py3.6-linux-x86_64.egg
-```python - <<'PY'
+```
+```bash
+python - <<'PY'
 ipfile, > import site, zipfile, os, sys
 > egg = "/frida-12.5.7-py3.6-linux-x86_64.egg"
 > dst = site.getsitepackages()[0]
