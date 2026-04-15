@@ -34,6 +34,14 @@ Attaching...
 the address    the fucking of the key
 ```
 
+# How to decrypt the recordings
+1) save the key file using an hex editor with the hex recovered from the frida script launch (filename: dvr)
+2) find compile etc the epk2extract[https://github.com/openlgtv/epk2extract]
+3) put the dvr file inside the folder with the recordings you want to decrypt
+3) use epk2extract against the recording file should be something ending in STR like this 0000000a000000a0STR
+4) use a proper tool for merging and cleaning the ts files the cypheros ts doctor does a good job making the files readable because the output of epk2extract is a bit trashed
+5) have fun
+
 # DOCKER INSTRUCTIONS for the client v12.5.7 required for frida-server from this repo
 ```bash
 docker run --rm -it -v "$HOME/frida-client:/work" python:3.7-bullseye bash
