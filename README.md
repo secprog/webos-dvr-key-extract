@@ -56,7 +56,7 @@ ipfile, > import site, zipfile, os, sys
 ```
 ```bash
 pip install frida-tools==2.0.0 --no-deps
-pip install  prompt_toolkit==2.0.10
+pip install prompt_toolkit==2.0.10
 pip install pygments==2.0.2
 pip install colorama
 nano webos-dvr.js <- paste the content from this repo or wget the file
