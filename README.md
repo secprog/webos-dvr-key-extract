@@ -1,6 +1,7 @@
 # webos-dvr-key-extract
 Extract dvr key from webos requires root
--LG GO F*** YOURSELF ! - encripting our FTA recordings doesn't make sense !
+
+LG GO F*** YOURSELF ! - encripting our FTA recordings doesn't make sense !
 
 # INSTRUCTIONS
 1) Root your tv using the public avaliable methods
