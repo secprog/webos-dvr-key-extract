@@ -1,7 +1,7 @@
 # webos-dvr-key-extract
 Extract dvr key from webos requires root
 
-LG GO F*** YOURSELF ! - encripting our FTA recordings doesn't make sense !
+LG GO F*** YOURSELF ! - encrypting our FTA recordings doesn't make sense !
 
 Thanks https://github.com/anoane for the prebuilt binary of frida-server
 # INSTRUCTIONS
