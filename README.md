@@ -59,6 +59,6 @@ pip install  prompt_toolkit==2.0.10
 pip install pygments==2.0.2
 pip install colorama
 nano webos-dvr.js <- paste the content from this repo or wget the file
-```
 frida-ps -> check the pid of tvservice
 frida -H <tv_ip_address>:27042 -p <tvservice_pid> -l webos-dvr.js
+```
