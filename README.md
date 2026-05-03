@@ -1,6 +1,19 @@
 # webos-dvr-key-extract
 Extract dvr key from webos 4 requires root
 
+# Legal warning
+
+This project is provided for research, interoperability, archival, and personal-use discussion only. It is not legal advice and it is not a statement that the described actions are lawful in your country.
+
+The method described here may involve bypassing access controls, encryption, copy-control systems, or other technological protection measures applied to TV recordings. In many jurisdictions, including EU Member States, the circumvention of effective technological protection measures can be unlawful even when the recording was made from free-to-air television, even when you own the device, and even when the intended use is private.
+
+Do not use this project to decrypt, copy, distribute, sell, share, upload, stream, or otherwise make available recordings unless you are certain you have the legal right to do so. Do not use it on recordings you did not lawfully make or lawfully access. Do not distribute extracted keys or decrypted content.
+
+By using any information in this repository, you accept full responsibility for checking your local law, broadcaster terms, device terms, copyright law, anti-circumvention law, and any applicable contract restrictions. If you are unsure, do not proceed and consult a qualified lawyer in your jurisdiction.
+
+The authors and contributors do not encourage copyright infringement, piracy, unauthorized access, commercial circumvention, or distribution of protected content. This repository is provided “as is”, without warranty, and the authors accept no responsibility for misuse or legal consequences.
+
+# Why
 LG GO F*** YOURSELF ! - encrypting our FTA recordings doesn't make sense !
 
 Thanks https://github.com/anoane for the prebuilt binary of frida-server
