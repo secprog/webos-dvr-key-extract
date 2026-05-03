@@ -13,8 +13,9 @@ PS: there is floathing arround a similar method with gdb but it is instable that
 4) Install frida in your host (if you use the frida-server from this repo needs to be the version 12.5.7 (use egg to install pip will fail install) - required python 3.7) can use docker.
 4) ensure you cloned this repo so you have the webos-dvr.js on your host machine
 5) frida-ps -> check the pid of tvservice
-6) frida -H <tv_ip_address>:27042 -p <tvservice_pid> -l <path_of_webos-dvr.js>
-7) You should see something like this in frida terminal of your host machine
+6) #You may need to adjust the target address [PVR_DEBUG_RetrieveDvrKey] in js file for your firmware version, since it is firmware version specific.#
+7) frida -H <tv_ip_address>:27042 -p <tvservice_pid> -l <path_of_webos-dvr.js>
+8) You should see something like this in frida terminal of your host machine
 ```bash
     ____
     / _  |   Frida 12.5.7 - A world-class dynamic instrumentation toolkit
