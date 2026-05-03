@@ -14,7 +14,7 @@ By using any information in this repository, you accept full responsibility for 
 The authors and contributors do not encourage copyright infringement, piracy, unauthorized access, commercial circumvention, or distribution of protected content. This repository is provided “as is”, without warranty, and the authors accept no responsibility for misuse or legal consequences.
 
 # Why
-LG GO F*** YOURSELF ! - encrypting our FTA recordings doesn't make sense !
+LG GO F*** YOURSELF ! - encrypting our FTA recordings doesn't make sense !, i can buy a 30 dollars free to air receiver and the recordings are not encrypted.
 
 Thanks https://github.com/anoane for the prebuilt binary of frida-server
 
